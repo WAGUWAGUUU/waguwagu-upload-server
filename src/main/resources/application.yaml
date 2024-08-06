@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: upload-server
+  cloud:
+    gcp:
+      storage:
+        credentials:
+          location: classpath:wgwg.json
+        project-id: waguwagu-storage
+        bucket: wgwg_bucket
